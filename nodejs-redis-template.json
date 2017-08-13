@@ -5,8 +5,6 @@
         "name": "nodejs-redis-template",
         "selfLink": "/oapi/v1/namespaces/openshift/templates/nodejs-redis-example",
         "uid": "1dae6cc1-b481-11e5-8b8e-fa163e38132c",
-        "resourceVersion": "1209695",
-        "creationTimestamp": "2016-01-06T14:23:54Z",
         "annotations": {
             "description": "An example Node.js application with a Redis database",
             "iconClass": "icon-nodejs",
@@ -373,7 +371,7 @@
             "displayName": "Version of Redis Image",
             "description": "Version of Redis image to be used (3.2 or latest).",
             "value": "3.2",
-            "required": true
+            "required": false
         }
     ],
     "labels": {
