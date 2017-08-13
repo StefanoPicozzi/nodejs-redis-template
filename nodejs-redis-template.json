@@ -246,7 +246,7 @@
                             "from": {
                                 "kind": "ImageStreamTag",
                                 "namespace": "openshift",
-                                "name": "redis:2.6"
+                                "name": "redis:3.2"
                             }
                         }
                     },
@@ -367,6 +367,13 @@
             "name": "EMAIL_APPLICATION_DOMAIN",
             "description": "Email Service or email url",
             "value": "http://emailsvc:8080"
+        },
+        {
+            "name": "REDIS_VERSION",
+            "displayName": "Version of Redis Image",
+            "description": "Version of Redis image to be used (3.2 or latest).",
+            "value": "3.2",
+            "required": true
         }
     ],
     "labels": {
