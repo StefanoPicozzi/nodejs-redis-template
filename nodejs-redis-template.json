@@ -213,8 +213,8 @@
                 "ports": [
                     {
                         "name": "redis",
-                        "port": 27017,
-                        "targetPort": 27017
+                        "port": 6379,
+                        "targetPort": 6379
                     }
                 ],
                 "selector": {
@@ -272,7 +272,7 @@
                                 "image": "redis",
                                 "ports": [
                                     {
-                                        "containerPort": 27017
+                                        "containerPort": 6379
                                     }
                                 ],
                                 "env": [
